@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Travis Richardson Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <nav>
+      <img
+        class="logo"
+        src="images/javascript-games-logo.png"
+        alt="Travis Richardson Logo"
+      ></img>
+      <ul class="nav-bar" id="nav-list">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="https://github.com/travisleerichardson">GitHub</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <div class="hero">
+      <div class="hero-info">
+          <h1 id="name">Travis Richardson</h1>
+          <p>I am a professional Web3 Developer Relations Engineer. I love to teach anyone and everyone why decentralization matters.</p>
+          <div class="styled-break"></div>
+          <div class="button">Hire me</div>
+      </div>
+      <div>
+        <img
+          class="hero-image"
+          src="images/michael-dziedzic-qDG7XKJLKbs-unsplash.jpg"
+          alt="Artificial Intelligence bot"
+        />
+      </div>
+    </div>
+    <section>
+      <div class="about-me">
+        <img
+          class="avatar"
+          src="images/travis.jpg"
+          alt="Travis Richardson headshot"
+        />
+      </div>
+      <div class="info">
+          <h2><a name="about-me">About Me</a></h2>
+          <p>Building the future is about building a more inclusive, open world. I believe web3 is the way.<p>
+      </div>
+    </section>
+    <section>
+      <i class="far fa-user-circle"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+    </section>
+    <section>
+      <form>
+        <h2>Contact Me</h2>
+        <div class="input-section">
+          <div class="input-group">
+            <label for="first-name">First name:</label>
+            <input type="text" id="first-name" name="first-name" value="John"></input>
+          </div>
+          <div class="input-group">
+          <label for="last-name">Last name:</label>
+          <input type="text" id="last-name" name="last-name" value="Doe"></input>
+          </div>
+        </div>
+        <div class="input-section">
+          <input type="radio" id="office" name="office" value="office"></input>
+          <label for="office">Office</label>
+          <input type="radio" id="remote" name="remote" value="remote"></input>
+          <label for="remote">Remote</label>
+          <input type="radio" id="other" name="other" value="other"></input>
+          <label for="other">Other</label>
+        </div>
+        <div class="input-section">
+          <input type="checkbox" id="contract" name="contract" value="contract"></input>
+          <label for="contract">Contract work</label>
+          <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+          <label for="full-time">Full-time</label>
+          <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship"></input>
+          <label for="sponsorship">Sponsorship</label>  
+        </div>
+        <input class="button" type="submit" value="submit"></input>
+      </form>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="">About me</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="https://github.com/travisleerichardson">GitHub</a></li>
+      </ul>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
